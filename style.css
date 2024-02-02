@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Butterfly;
+    src: url(ButterflyKids-Regular.woff2);
+}
 .main{
     height: 150vh;
     width: 100vw;
