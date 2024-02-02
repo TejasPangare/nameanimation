@@ -1,0 +1,34 @@
+.main{
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url("https://c02.purpledshub.com/uploads/sites/48/2020/04/Things-never-knew-astronomy-e454e5d.jpg?w=1029&webp=1");
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: delay;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.bg{
+    height: 500px;
+    width: 500px;
+    background-image: url("https://images.newscientist.com/wp-content/uploads/2020/09/16181027/credit_mohamed-khaki-eyeem-getty-images_web.jpg?crop=16:9,smart&width=1200&height=675&upscale=true");
+    background-clip: text;
+    font-size: 50px;
+    font-family: Butterfly ;
+}
+h1{
+    color: transparent;
+    text-align: center;
+}
+
+@keyframes delay {
+    0%{opacity: 0;}
+    25%{opacity: 0.25;}
+    50%{opacity: 0.5;}
+    75%{opacity: 0.75;}
+    100%{opacity: 1;}
+}
